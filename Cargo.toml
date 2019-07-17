@@ -1,0 +1,11 @@
+[package]
+name = "htu21d"
+version = "0.1.0"
+authors = ["Eric Trombly <etrombly@yahoo.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.embedded-hal]
+features = ["unproven"]
+version = "0.2.2"
